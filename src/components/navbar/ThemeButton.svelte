@@ -12,8 +12,3 @@
 <button class="btn btn-ghost" aria-label="muda cores da pagina" on:click={changeTheme}>
 	<i class={`gg-${icon}`} />
 </button>
-
-<style>
-	@import '../../../static/icons/sun.css';
-	@import '../../../static/icons/moon.css';
-</style>
