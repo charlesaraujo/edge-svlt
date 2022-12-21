@@ -9,7 +9,7 @@
 	};
 </script>
 
-<button class="btn btn-ghost" on:click={changeTheme}>
+<button class="btn btn-ghost" aria-label="muda cores da pagina" on:click={changeTheme}>
 	<i class={`gg-${icon}`} />
 </button>
 
