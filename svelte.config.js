@@ -1,4 +1,5 @@
 import vercel from '@sveltejs/adapter-vercel';
+import path from 'path';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -18,6 +19,14 @@ const config = {
 			// instead of creating a single one for the entire app
 			split: false
 		})
+		// vite: {
+		// 	resolve: {
+		// 		alias: {
+		// 			$lib: path.resolve('./src/lib'),
+		// 			$base: path.resolve('./src/baseApp')
+		// 		}
+		// 	}
+		// }
 	}
 };
 

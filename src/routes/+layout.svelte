@@ -1,7 +1,7 @@
 <script lang="ts">
 	import '../app.css';
-	import NavBar from '../components/navbar/NavBar.svelte';
-	import BackToTop from '../components/navbar/BackToTop.svelte';
+	import NavBar from '../lib/components/navbar/NavBar.svelte';
+	import BackToTop from '../lib/components/navbar/BackToTop.svelte';
 </script>
 
 <NavBar />
