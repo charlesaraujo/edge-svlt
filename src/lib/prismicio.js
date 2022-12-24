@@ -10,6 +10,11 @@ const routes = [
 		path: '/'
 	},
 	{
+		type: 'menu',
+		uid: 'menu',
+		path: '/'
+	},
+	{
 		type: 'outras',
 		path: '/:uid'
 	}

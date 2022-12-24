@@ -4,5 +4,5 @@
 
 <pre>
   
-  {JSON.stringify(slice, null, 2)}
+  <!-- {JSON.stringify(slice, null, 2)} -->
 </pre>
