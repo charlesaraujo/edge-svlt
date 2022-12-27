@@ -20,7 +20,8 @@
 			{#if slice.primary[`logo_image_${lightTheme ? 'light' : 'dark'}`].url}
 				<!-- melhorar imagens carregar svg e tbm colocar srcset -->
 				<img
-					class="w-10 md:w-16"
+					width="54"
+					height="54"
 					src={prismicH.asImageSrc(slice.primary[`logo_image_${lightTheme ? 'light' : 'dark'}`])}
 					srcset={prismicH.asImageWidthSrcSet(
 						slice.primary[`logo_image_${lightTheme ? 'light' : 'dark'}`]
