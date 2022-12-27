@@ -3,6 +3,7 @@
 	import { menu } from '../lib/slices';
 	import { SliceZone } from '@prismicio/svelte';
 	export let data;
+	export const prerender = true;
 </script>
 
 <SliceZone slices={data.data.body} components={{ menu: menu }} />
