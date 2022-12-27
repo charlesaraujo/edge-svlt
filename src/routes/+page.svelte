@@ -3,6 +3,9 @@
 	import { SliceZone } from '@prismicio/svelte';
 	export let data;
 	import * as components from '../lib/slices';
+	export const prerender = true; //render at build time // SSG
+	// export const ssr = false //disable server rendering // like SPA
+	// export const csr = false // disable javascript hydration // Only server side hydration
 </script>
 
 <SliceZone slices={data.data.body} {components} />
