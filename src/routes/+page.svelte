@@ -6,6 +6,11 @@
 	export const prerender = true; //render at build time // SSG
 	// export const ssr = false //disable server rendering // like SPA
 	// export const csr = false // disable javascript hydration // Only server side hydration
+
+	// TODO:
+	// Add PWA
+	// Create Prismuc pages
+	// Create configs in prismic to validate things in app like a featuretoggle
 </script>
 
 <SliceZone slices={data.data.body} {components} />
